@@ -62,7 +62,7 @@ function changeBtnColorWhite(btn) {
 addStarBtn.addEventListener('click', function() {
     const starContainer = document.getElementById('star-add-container');
     const newStar = document.createElement('img');
-    newStar.src = 'Group 1272628224.png';
+    newStar.src = 'img/Group 1272628224.png';
     newStar.classList.add('star-class', 'desligado');
     starContainer.appendChild(newStar);
 
